@@ -2,7 +2,7 @@
 import "../styles/landing.css";
 
 const pageTitle = "Smart Gym CR – La plataforma inteligente para tu gimnasio";
-const pageDescription = "Landing page de Smart Gym CR migrada a Astro para facilitar desarrollo, build y despliegue.";
+const pageDescription = "Smart Gym CR: software para administrar gimnasios en Costa Rica. Gestiona membresías, cobros, asistencia, rutinas, clientes y múltiples sedes desde una sola plataforma.";
 const phone = "50660658625";
 
 const createWhatsappLink = (message) => `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
@@ -45,27 +45,6 @@ const footerWhatsappLink = createWhatsappLink(
       </ul>
       <a href={demoLink} class="nav-btn" target="_blank" rel="noreferrer">Solicitar Demo</a>
     </nav>
-
-    <div class="ticker-bar" aria-hidden="true">
-      <div class="ticker-track" id="ticker-track">
-        <span class="ticker-item"><span class="ticker-dot"></span>Check-in <b>Carlos Mora</b> · Sede Central · hace 2 min</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Membresía renovada <b>Ana Rodríguez</b> · ₡35,000</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Alerta morosidad <b>3 clientes</b> · Sede Heredia</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Nueva inscripción <b>Pedro Jiménez</b> · Plan Profesional</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Check-in <b>María Quesada</b> · Sede Cartago · hace 4 min</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Vencimiento próximo <b>8 clientes</b> · En 3 días</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Rutina actualizada <b>Luis Fernández</b> · Día 3 completado</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Cobro automático <b>₡142,000</b> · 4 renovaciones hoy</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Check-in <b>Carlos Mora</b> · Sede Central · hace 2 min</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Membresía renovada <b>Ana Rodríguez</b> · ₡35,000</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Alerta morosidad <b>3 clientes</b> · Sede Heredia</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Nueva inscripción <b>Pedro Jiménez</b> · Plan Profesional</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Check-in <b>María Quesada</b> · Sede Cartago · hace 4 min</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Vencimiento próximo <b>8 clientes</b> · En 3 días</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Rutina actualizada <b>Luis Fernández</b> · Día 3 completado</span>
-        <span class="ticker-item"><span class="ticker-dot"></span>Cobro automático <b>₡142,000</b> · 4 renovaciones hoy</span>
-      </div>
-    </div>
 
     <section id="hero">
       <canvas id="canvas-bg"></canvas>
